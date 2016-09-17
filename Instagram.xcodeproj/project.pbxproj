@@ -12,6 +12,11 @@
 		AE3A1F661D8D894500431748 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3A1F641D8D894500431748 /* Main.storyboard */; };
 		AE3A1F681D8D894500431748 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE3A1F671D8D894500431748 /* Assets.xcassets */; };
 		AE3A1F6B1D8D894500431748 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3A1F691D8D894500431748 /* LaunchScreen.storyboard */; };
+		AE3A1F731D8DFF2300431748 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3A1F721D8DFF2300431748 /* LoginViewController.swift */; };
+		AE3A1F751D8DFF3D00431748 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3A1F741D8DFF3D00431748 /* HomeViewController.swift */; };
+		AE3A1F771D8DFF5D00431748 /* imageSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3A1F761D8DFF5D00431748 /* imageSelectViewController.swift */; };
+		AE3A1F791D8DFF7400431748 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3A1F781D8DFF7400431748 /* PostViewController.swift */; };
+		AE3A1F7B1D8DFF8300431748 /* SeeingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3A1F7A1D8DFF8300431748 /* SeeingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		AE3A1F671D8D894500431748 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE3A1F6A1D8D894500431748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE3A1F6C1D8D894500431748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE3A1F721D8DFF2300431748 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AE3A1F741D8DFF3D00431748 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AE3A1F761D8DFF5D00431748 /* imageSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imageSelectViewController.swift; sourceTree = "<group>"; };
+		AE3A1F781D8DFF7400431748 /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		AE3A1F7A1D8DFF8300431748 /* SeeingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeeingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +67,11 @@
 				AE3A1F601D8D894500431748 /* AppDelegate.swift */,
 				AE3A1F621D8D894500431748 /* ViewController.swift */,
 				AE3A1F641D8D894500431748 /* Main.storyboard */,
+				AE3A1F721D8DFF2300431748 /* LoginViewController.swift */,
+				AE3A1F741D8DFF3D00431748 /* HomeViewController.swift */,
+				AE3A1F761D8DFF5D00431748 /* imageSelectViewController.swift */,
+				AE3A1F781D8DFF7400431748 /* PostViewController.swift */,
+				AE3A1F7A1D8DFF8300431748 /* SeeingViewController.swift */,
 				AE3A1F671D8D894500431748 /* Assets.xcassets */,
 				AE3A1F691D8D894500431748 /* LaunchScreen.storyboard */,
 				AE3A1F6C1D8D894500431748 /* Info.plist */,
@@ -135,8 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE3A1F7B1D8DFF8300431748 /* SeeingViewController.swift in Sources */,
+				AE3A1F791D8DFF7400431748 /* PostViewController.swift in Sources */,
+				AE3A1F731D8DFF2300431748 /* LoginViewController.swift in Sources */,
+				AE3A1F771D8DFF5D00431748 /* imageSelectViewController.swift in Sources */,
 				AE3A1F631D8D894500431748 /* ViewController.swift in Sources */,
 				AE3A1F611D8D894500431748 /* AppDelegate.swift in Sources */,
+				AE3A1F751D8DFF3D00431748 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
